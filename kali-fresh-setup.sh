@@ -71,9 +71,9 @@ echo "-------------------------------------------------------------------"
 echo "------------ vim color scheme configured, Next Phase --------------"
 echo "-------------------------------------------------------------------"
 
-#sudo mv ~/.bashrc ~/.bashrc-copy
-#sudo mv .bashrc ~
-#sudo mv .bash_aliases ~
+sudo mv ~/.bashrc ~/.bashrc-copy
+sudo mv .bashrc ~
+sudo mv .bash_aliases ~
 
 echo "-------------------------------------------------------------------"
 echo "------------ .bashrc copied and replaced, Next Phase --------------"
