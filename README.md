@@ -13,7 +13,7 @@ AFTER REBOOT:
 
 After running the setup script, launch vim and run **:PluginInstall** to install the plugins listed in vimrc.
 
-Other Recommendations (If anyone knows how to do any of these programmatically, please contribute)
+Other Recommendations (If you know how to do any of these programmatically, please contribute)
 -------------------------------------------------------------------
 1. Add custom shortcuts: **Settings --> Keyboard --> Shortcuts --> Custom Shortcuts --> +**
 2. Change power saving settings so screen doesn't go blank after 5 minutes: **Settings --> Power --> Blank Screen**
