@@ -79,12 +79,10 @@ echo "-------------------------------------------------------------------"
 echo "------------ .bashrc copied and replaced, Next Phase --------------"
 echo "-------------------------------------------------------------------"
 
-./set-custom-shortcut.py 'Terminal' 'gnome-terminal' '<Ctrl><Alt>T'
-./set-custom-shortcut.py 'Iceweasel' 'iceweasel' '<Ctrl><Alt>I'
 
-echo "-------------------------------------------------------------------"
-echo "----------- Custom keyboard shortcuts set, Next Phase -------------"
-echo "-------------------------------------------------------------------"
+#echo "-------------------------------------------------------------------"
+#echo "----------- Custom keyboard shortcuts set, Next Phase -------------"
+#echo "-------------------------------------------------------------------"
 
 sudo dpkg-reconfigure tzdata
 
