@@ -11,8 +11,7 @@ echo "-------------------------------------------------------------------"
 echo "----- update, upgrade, and dist-upgrade complete, Next Phase ------"
 echo "-------------------------------------------------------------------"
 
-sudo apt-get install kali-linux-all
-sudo apt-get install htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch -y
+sudo apt-get install kali-linux-all htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch -y
 
 echo "-------------------------------------------------------------------"
 echo "---------- Lots of cool software installed, Next Phase ------------"
@@ -54,16 +53,17 @@ msfdb init
 echo "-------------------------------------------------------------------"
 echo "--------------- Metasploit configured, Next Phase -----------------"
 echo "-------------------------------------------------------------------"
-        
+
+cd ~        
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo mv /etc/vim/vimrc /etc/vim/vimrc-backup
-sudo mv vimrc /etc/vim/
+sudo cp vimrc /etc/vim/
 
 echo "-------------------------------------------------------------------"
 echo "------------- Vundle and vimrc configured, Next Phase -------------"
 echo "-------------------------------------------------------------------"
 
-mkdir ~/.vim/colors
+mkdir ~.vim/colors
 wget https://raw.githubusercontent.com/DrSpatula/vim-buddy/master/colors/buddy.vim
 mv buddy.vim ~/.vim/colors
 
@@ -72,8 +72,8 @@ echo "------------ vim color scheme configured, Next Phase --------------"
 echo "-------------------------------------------------------------------"
 
 sudo mv ~/.bashrc ~/.bashrc-copy
-sudo mv .bashrc ~
-sudo mv .bash_aliases ~
+sudo cp .bashrc ~
+sudo cp .bash_aliases ~
 
 echo "-------------------------------------------------------------------"
 echo "------------ .bashrc copied and replaced, Next Phase --------------"
