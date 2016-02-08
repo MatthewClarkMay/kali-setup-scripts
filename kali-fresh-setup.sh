@@ -11,7 +11,7 @@ echo "-------------------------------------------------------------------"
 echo "----- update, upgrade, and dist-upgrade complete, Next Phase ------"
 echo "-------------------------------------------------------------------"
 
-sudo apt-get install kali-linux-all htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch -y
+sudo apt-get install htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch -y
 
 echo "-------------------------------------------------------------------"
 echo "---------- Lots of cool software installed, Next Phase ------------"
@@ -54,7 +54,7 @@ echo "-------------------------------------------------------------------"
 echo "--------------- Metasploit configured, Next Phase -----------------"
 echo "-------------------------------------------------------------------"
 
-cd ~        
+cd ~/kali-setup-scripts        
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo mv /etc/vim/vimrc /etc/vim/vimrc-backup
 sudo cp vimrc /etc/vim/
