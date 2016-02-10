@@ -11,7 +11,7 @@ echo "-------------------------------------------------------------------"
 echo "----- update, upgrade, and dist-upgrade complete, Next Phase ------"
 echo "-------------------------------------------------------------------"
 
-sudo apt-get install htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch -y
+sudo apt-get install htop hexedit exiftool exif qbittorrent chromium-browser gufw speedcrunch openvpn -y
 
 echo "-------------------------------------------------------------------"
 echo "---------- Lots of cool software installed, Next Phase ------------"
