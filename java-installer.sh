@@ -25,3 +25,7 @@ update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so mozilla-
 update-alternatives --set java /opt/$JVERSION/bin/java
 update-alternatives --set javac /opt/$JVERSION/bin/javac
 update-alternatives --set mozilla-javaplugin.so /opt/$JVERSION/jre/lib/amd64/libnpjp2.so
+
+echo "-------------------------------------------------------------------"
+echo "------------------- Java Installed, Next Phase --------------------"
+echo "-------------------------------------------------------------------"
