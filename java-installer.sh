@@ -6,18 +6,18 @@ if [[ $(getconf LONG_BIT) = "64" ]]
 then
     echo "64bit Detected" &&
     echo "Installing Java" &&
-    wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-x64.tar.gz"
+    wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u74-b02/jdk-8u74-linux-x64.tar.gz"
 else
     echo "32bit Detected" &&
     echo "Installing Java" &&
-    wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u72-b15/jdk-8u72-linux-i586.tar.gz"
+    wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u74-b02/jdk-8u74-linux-i586.tar.gz"
 fi
 
 tar -xzvf jdk*.gz
 rm jdk*.gz
 cd jdk*
 
-JVERSION='jdk1.8.0_72'
+JVERSION='jdk1.8.0_74'
 
 update-alternatives --install /usr/bin/java java /opt/$JVERSION/bin/java 1
 update-alternatives --install /usr/bin/javac javac /opt/$JVERSION/bin/javac 1
