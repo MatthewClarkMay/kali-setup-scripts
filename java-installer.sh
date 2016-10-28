@@ -17,7 +17,7 @@ tar -xzvf jdk*.gz
 rm jdk*.gz
 cd jdk*
 
-JVERSION='jdk1.8.0_74'
+JVERSION='jdk1.8.0_112'
 
 update-alternatives --install /usr/bin/java java /opt/$JVERSION/bin/java 1
 update-alternatives --install /usr/bin/javac javac /opt/$JVERSION/bin/javac 1
