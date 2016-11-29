@@ -1,3 +1,5 @@
+THIS REPOSITORY IS NO LONGER MAINTAINED ACTIVELY
+
 The contents of this repository are meant to ease the task of configuring a fresh Kali installation.
 
 Command Line Installation
